@@ -18,7 +18,6 @@ class Book:
         else:
             print("page_count must be an integer")
             # CodeGrade likely still wants an attribute to exist even if invalid
-            self._page_count = value 
 
     def turn_page(self):
         print("Flipping the page...wow, you read fast!")
